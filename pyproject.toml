@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "keep-bring"
+version = "0.1.0"
+description = ""
+authors = ["HectoFR <127681754+HectoFR@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "keep_bring"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+gkeepapi = "^0.14.2"
+urllib3 = "<2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
